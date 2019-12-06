@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<form name="myform" action="ajouterlivraison.php" method="POST">
+			<table>
+				<tr>
+					<td></td>
+					<td><h3> Ajouter Livraison </h3></td>
+				</tr>
+				<tr>
+					<td>Id livreur</td>
+					<td><input type="hidden" name="id_livraison" value="auto-increment"></td>
+				</tr>
+				<tr>
+					<td>Date depart de la commande</td>
+					<td><input type="date" name="date_depart"></td>
+				</tr>
+				<tr>
+					<td>date arrive de la commande</td>
+					<td><input type="date" name="date_arrive"></td>
+				</tr>
+				<tr>
+					<td>identifiant du livreur</td>
+					<td><input type="text" name="id_livreur" ></td>
+				</tr>
+				<tr>
+					<td>identifiant de la commande</td>
+					<td><input type="text" name="id_commandes"></td>
+				</tr>
+				<tr>
+					<td>non d'utilisateur client</td>
+					<td><input type="text" name="id_client"></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type="submit" name="ajouter" value="ajouter" onclick="execution()"></td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>
